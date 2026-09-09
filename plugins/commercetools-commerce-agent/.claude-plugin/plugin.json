@@ -1,0 +1,8 @@
+{
+  "name": "commercetools-commerce-agent",
+  "description": "Scaffolds a shopping or merchant agent from anthropics/commerce-agents onto commercetools, using this repo's backend, config, and decision record as the reference.",
+  "version": "0.1.0",
+  "author": {
+    "name": "commercetools"
+  }
+}

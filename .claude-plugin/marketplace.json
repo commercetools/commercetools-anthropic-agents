@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "commercetools-anthropic-agents",
+  "description": "commercetools Anthropic Agents: the commercetools-commerce-agent plugin for building shopping and merchant agents on commerce-agents against commercetools.",
+  "owner": {
+    "name": "commercetools"
+  },
+  "plugins": [
+    {
+      "name": "commercetools-commerce-agent",
+      "source": "./plugins/commercetools-commerce-agent",
+      "description": "Scaffolds a shopping or merchant agent from anthropics/commerce-agents onto commercetools, using this repo's backend, config, and decision record as the reference.",
+      "author": {
+        "name": "commercetools"
+      }
+    }
+  ]
+}
