@@ -111,3 +111,8 @@ cd web/portal && npx playwright test                 # the back office's browser
 Order** on every run. It is not mocked, and it is not idempotent. The portal suite stages
 real changes; it dismisses rather than approves them, but the queue accumulates across runs
 and clears when the service restarts.
+
+## License
+
+Copyright 2026 commercetools. Licensed under the [Apache License 2.0](./LICENSE). This is a reference implementation; it is not maintained and does not
+accept contributions.
