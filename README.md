@@ -13,6 +13,27 @@ cart and checkout takes a real card through commercetools Checkout and the deplo
 connector. In the portal, the merchant assistant reads the store's real numbers and stages
 changes that only apply when the operator approves them.
 
+## Install the plugin
+
+This repo is also a Claude Code plugin marketplace, carrying one plugin —
+`commercetools-commerce-agent` — that scaffolds a new shopping or merchant agent using this
+repo's backend, config, and decision record as the reference.
+
+```
+/plugin marketplace add commercetools/commercetools-anthropic-agents
+/plugin install commercetools-commerce-agent@commercetools-anthropic-agents
+```
+
+That gives you the `/scaffold-commercetools-agent` command:
+
+```
+/scaffold-commercetools-agent a shopping agent for project key my-store-prod
+```
+
+It interviews you on the details that actually change per project — transport, catalogue
+shape, identity binding, checkout ownership — then scaffolds the backend from this repo's
+`ct_common/` and decision record.
+
 ## Run it
 
 ```bash
